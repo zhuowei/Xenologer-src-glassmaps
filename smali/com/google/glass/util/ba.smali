@@ -70,14 +70,6 @@
 
     invoke-virtual {p0}, Lcom/google/glass/util/ba;->c()V
 
-    iget-object v0, p0, Lcom/google/glass/util/ba;->b:Landroid/os/PowerManager;
-
-    invoke-static {}, Landroid/os/SystemClock;->uptimeMillis()J
-
-    move-result-wide v1
-
-    invoke-virtual {v0, v1, v2}, Landroid/os/PowerManager;->goToSleep(J)V
-
     return-void
 .end method
 

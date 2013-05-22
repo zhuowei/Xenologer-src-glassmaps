@@ -20,19 +20,7 @@
     return v0
 
     :cond_0
-    invoke-static {}, Lcom/google/glass/util/BuildHelper;->a()Z
 
-    move-result v0
-
-    if-eqz v0, :cond_1
-
-    invoke-virtual {p0}, Lcom/google/glass/util/Labs$Feature;->getDefaultValue()Z
-
-    move-result v0
-
-    goto :goto_0
-
-    :cond_1
     invoke-virtual {p0}, Lcom/google/glass/util/Labs$Feature;->getPropertyKey()Ljava/lang/String;
 
     move-result-object v0
