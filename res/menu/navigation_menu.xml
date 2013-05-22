@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:glass="http://schemas.android.com/apk/res/com.google.glass.maps">
+    <item glass:id="@id/show_route" glass:name="@string/menu_show_route" glass:image="@drawable/ic_menu_show_route" />
+    <item glass:id="@id/stop" glass:name="@string/menu_stop" glass:image="@drawable/ic_menu_stop" />
+    <item glass:id="@id/drive" glass:name="@string/menu_drive" glass:image="@drawable/ic_menu_drive" />
+    <item glass:id="@id/walk" glass:name="@string/menu_walk" glass:image="@drawable/ic_menu_walk" />
+    <item glass:id="@id/bike" glass:name="@string/menu_bike" glass:image="@drawable/ic_menu_bike" />
+</menu>

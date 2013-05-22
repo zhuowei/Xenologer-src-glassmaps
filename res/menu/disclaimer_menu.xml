@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:glass="http://schemas.android.com/apk/res/com.google.glass.maps">
+    <item glass:id="@id/continue_option" glass:name="@string/menu_continue" glass:image="@drawable/ic_menu_continue" />
+    <item glass:id="@id/show_next_time" glass:name="@string/menu_show_next_time" glass:image="@drawable/ic_menu_warning" />
+</menu>
